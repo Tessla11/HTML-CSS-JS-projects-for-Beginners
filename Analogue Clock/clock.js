@@ -70,3 +70,14 @@ function drawTime(ctx, radius){
     //make hour hand 50% of canvas's radius
     drawHand(ctx, hour, radius*0.5, radius*0.07);
     //minute
+    
+    //calculate angle of minute hand
+    minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+    //make minute hand 80% of canvas's radius
+    drawHand(ctx, minute, radius*0.8, radius*0.07);
+    //second
+    //calculate angle of second hand
+    second=(second*Math.PI/30);
+    //make second hand 90% of canvas's radius
+    drawHand(ctx, second, radius*0.9, radius*0.02);
+}
