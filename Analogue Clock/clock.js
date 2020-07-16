@@ -18,3 +18,10 @@ function drawClock(){
     drawTime(ctx, radius);
 }
 
+function drawFace(ctx, radius){
+    var grad;
+    //draw white circle for the face
+    ctx.beginPath();
+    ctx.arc(0,0,radius,0,2*Math.PI);
+    ctx.fillStyle = "White";
+    ctx.fill();
