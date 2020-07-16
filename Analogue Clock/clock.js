@@ -1,7 +1,7 @@
 
-//create a canvas object fro HTML element
+//create a canvas object fro HTML element.
 var canvas = document.getElementById('canvas');
-//create a 2d drawing object
+//create a 2d drawing object.
 var ctx = canvas.getContext('2d');
 //calculate the clock radius by using the height
 var radius = canvas.height / 2;
