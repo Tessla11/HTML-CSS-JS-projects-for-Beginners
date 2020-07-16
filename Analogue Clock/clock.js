@@ -57,3 +57,16 @@ function drawNumbers(ctx, radius) {
         ctx.rotate(-ang);
     }
 }
+
+function drawTime(ctx, radius){
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour = hour%12;
+    //calculate angle of hour hand
+    hour = (hour*Math.PI/6)+(minute*Math.PI/(6*60))+(second*Math.PI/(360*60));
+    //make hour hand 50% of canvas's radius
+    drawHand(ctx, hour, radius*0.5, radius*0.07);
+    //minute
