@@ -21,3 +21,6 @@ project11
 
 
 ![javascript-digital-clock-768x576](https://user-images.githubusercontent.com/32854050/87674994-196f9480-c777-11ea-8a9a-51a570ff0c72.png)
+
+
+![JavaScript-2D-Brick-Breaker-Game-768x576](https://user-images.githubusercontent.com/32854050/87675127-4328bb80-c777-11ea-9bcb-50e2b20f6251.png)
