@@ -81,3 +81,14 @@ function drawTime(ctx, radius){
     //make second hand 90% of canvas's radius
     drawHand(ctx, second, radius*0.9, radius*0.02);
 }
+
+function drawHand(ctx, pos, length, width){
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0,0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
