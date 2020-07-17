@@ -38,7 +38,6 @@ LIVE DEMO: https://romeojeremiah.github.io/quote-generator/
 ![quotes-generator-javascript-project-pic](https://user-images.githubusercontent.com/32854050/87677004-8edc6480-c779-11ea-8f38-0938ef77c953.png)
 
 
-![javascript countdown timer](https://user-images.githubusercontent.com/32854050/87766569-a408d000-c819-11ea-8b36-3bbdbc67be8b.png)
 
 
 
