@@ -20,3 +20,8 @@ function initializeClock(id, endtime){
     var hoursSpan = clock.querySelector('.hours'); // grab the hours span tag from the #clockdiv's div
     var minutesSpan = clock.querySelector('.minutes'); // grab the minutes span tag from the #clockdiv's div
     var secondsSpan = clock.querySelector('.seconds'); // grab the seconds span tag from the #clockdiv's div
+      
+        function updateClock(){
+            var t = getTimeRemaining(endtime); // calculate endtime date - current date and return a date object with days, hours, minutes, and seconds
+        
+        
