@@ -13,8 +13,7 @@ LIVE DEMO: https://romeojeremiah.github.io/Todo-List-Project/
 ![todolist-project-bluelime-768x576](https://user-images.githubusercontent.com/32854050/87674988-1674a400-c777-11ea-91f4-81ea2d54373f.png)
 
 # 03.Contact Form using Local Storage Project!
-LIVE DEMO: https://romeojeremiah.github.io/contact-form-local-storage-project/
-![contact-form-local-storage-768x576](https://user-images.githubusercontent.com/32854050/87674990-170d3a80-c777-11ea-8345-305bab3a7087.png)
+
 
 # 21.Tip Form JavaScript Project
 LIVE DEMO: https://romeojeremiah.github.io/Tip-Form-JavaScript-Project/
