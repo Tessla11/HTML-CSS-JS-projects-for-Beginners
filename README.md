@@ -32,8 +32,7 @@ LIVE DEMO: https://romeojeremiah.github.io/2D-break-breaker/
 ![JavaScript-2D-Brick-Breaker-Game-768x576](https://user-images.githubusercontent.com/32854050/87675127-4328bb80-c777-11ea-9bcb-50e2b20f6251.png)
 
 # 37. JavaScript Countdown Timer
-LIVE DEMO: https://romeojeremiah.github.io/javascript-countdown-timer/
-![javascript-countdown-timer](https://user-images.githubusercontent.com/32854050/87677477-188c3200-c77a-11ea-915a-2c67c885368f.png)
+
 
 # 30. JavaScript Quote Generator Project
 LIVE DEMO: https://romeojeremiah.github.io/quote-generator/
