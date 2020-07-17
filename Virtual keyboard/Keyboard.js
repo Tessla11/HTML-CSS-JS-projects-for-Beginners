@@ -26,3 +26,7 @@ const Keyboard = {
         this.elements.keysContainer.appendChild(this._createKeys());
 
         this.elements.keys = this.elements.keysContainer.querySelectorAll(".keyboard__key");
+
+        // Add to DOM
+        this.elements.main.appendChild(this.elements.keysContainer);
+        document.body.appendChild(this.elements.main);
