@@ -13,3 +13,10 @@ function getTimeRemaining(endtime){
         'seconds' : seconds
     };
 }
+
+function initializeClock(id, endtime){
+    var clock = document.getElementById(id); //first grab #clockdiv from div
+    var daysSpan = clock.querySelector('.days'); // grab the days span tag from the #clockdiv's div
+    var hoursSpan = clock.querySelector('.hours'); // grab the hours span tag from the #clockdiv's div
+    var minutesSpan = clock.querySelector('.minutes'); // grab the minutes span tag from the #clockdiv's div
+    var secondsSpan = clock.querySelector('.seconds'); // grab the seconds span tag from the #clockdiv's div
