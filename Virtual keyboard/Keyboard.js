@@ -50,3 +50,12 @@ const Keyboard = {
             "done", "z", "x", "c", "v", "b", "n", "m", ",", ".", "?",
             "space"
         ];
+
+        // Creates HTML for an icon
+        const createIconHTML = (icon_name) => {
+            return `<i class="material-icons">${icon_name}</i>`;
+        };
+
+        keyLayout.forEach(key => {
+            const keyElement = document.createElement("button");
+            const insertLineBreak = ["backspace", "p", "enter",
