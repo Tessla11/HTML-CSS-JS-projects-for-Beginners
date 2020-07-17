@@ -41,6 +41,6 @@ LIVE DEMO: https://romeojeremiah.github.io/quote-generator/
 ![javascript countdown timer](https://user-images.githubusercontent.com/32854050/87766569-a408d000-c819-11ea-8b36-3bbdbc67be8b.png)
 
 
-![javascript balloon popping project](https://user-images.githubusercontent.com/32854050/87766574-a539fd00-c819-11ea-8cda-0eadf8d93a08.png)
+
 
 
