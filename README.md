@@ -2,8 +2,7 @@
 
 
 # 02. Analogue Clock Project
-LIVE DEMO: https://romeojeremiah.github.io/analogue_clock/
-![Analogue-Clock-JavaScript-Project-768x576](https://user-images.githubusercontent.com/32854050/87674862-e3321500-c776-11ea-9f0a-5ffd2e97b6d7.png)
+
 
 # 05.Grocery Cart JavaScript Project
 LIVE DEMO: https://romeojeremiah.github.io/Project_Grocery_Cart
@@ -22,8 +21,7 @@ LIVE DEMO: https://romeojeremiah.github.io/Tip-Form-JavaScript-Project/
 ![JavaScript-Tip-Percentage-Calculator-768x576](https://user-images.githubusercontent.com/32854050/87674992-18d6fe00-c777-11ea-85bc-193b75d74c79.png)
 
 # 35. Calculator JavaScript Project
-LIVE DEMO: https://romeojeremiah.github.io/Calculator-JavaScript-Project/
-![javascipt-basic-calculator-768x576](https://user-images.githubusercontent.com/32854050/87674993-196f9480-c777-11ea-91c9-5eb923dd9e9d.png)
+
 
 # 36. JavaScript Digital Clock
 LIVE DEMO: https://romeojeremiah.github.io/javascript-digital-clock
