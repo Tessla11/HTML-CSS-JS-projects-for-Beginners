@@ -1,0 +1,24 @@
+body{
+    font-family:sans-serif;
+    padding: 30px;
+    background:#ededed;
+}
+
+.wrapper{
+    max-width: 690px;
+    margin: 0 auto;
+}
+
+.blue {
+    color:#3f7abe;
+}
+
+h1{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #08a3d9;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000380;
+}
