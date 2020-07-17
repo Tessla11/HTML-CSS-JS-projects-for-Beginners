@@ -24,4 +24,16 @@ function initializeClock(id, endtime){
         function updateClock(){
             var t = getTimeRemaining(endtime); // calculate endtime date - current date and return a date object with days, hours, minutes, and seconds
         
+            daysSpan.innerHTML = t.days; //display number of days
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2); //use negative to slice from end of string. when number is 024, the 0 will be sliced, return 24. When number is 09, slice will return 09. 
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
         
+            if(t.total <=0){
+                clearInterval(timeinterval);
+            }
+        }
+    
+        updateClock();
+        var timeinterval = setInterval(updateClock, 1000);
+    }
