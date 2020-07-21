@@ -16,3 +16,7 @@ let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 //output countdown from date
 document.getElementById('countdown-from').innerHTML = `${countDownFromDate}`
+
+
+//output timer to HTML
+document.getElementById('root').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
