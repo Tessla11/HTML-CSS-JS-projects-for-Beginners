@@ -1,4 +1,4 @@
-# javascript-projects-for-beginners
+# JavaScript-projects-for-beginners
 
 
 
