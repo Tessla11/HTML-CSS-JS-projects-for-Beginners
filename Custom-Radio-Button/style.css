@@ -41,3 +41,34 @@
     padding-right: 0;
   }
   
+
+  label::before {
+    content: "";
+    border: 2px solid #222;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: -8px 20px;
+    margin-left: 0;
+    border-radius: 50%;
+  }
+  
+  label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(34, 34, 34, 0);
+    left: 7px;
+    top: 12px;
+    margin: -8px 20px;
+    margin-left: 0;
+    border-radius: 50%;
+  
+    transition: all 0.4s;
+  }
+  
+  input[type="radio"]:checked + label::after {
+    background: rgba(34, 34, 34, 1);
+  }
