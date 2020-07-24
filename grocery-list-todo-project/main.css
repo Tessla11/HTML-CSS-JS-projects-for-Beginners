@@ -52,3 +52,35 @@ body{
     outline: none;
     text-transform: uppercase;
 }
+
+
+.addItems-submit,.displayItems-clear{
+    display: block;
+    width: 90%;
+    margin: 2rem auto 0 auto;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.addItems-submit{
+    color: #b6c2d9;
+    background: transparent;
+    border: 3px solid #b6c2d9;
+    transition: all 2s ease;
+}
+
+.addItems-submit:hover{
+    background: #b6c2d9;
+    color: #272932;
+}
+
+.displayItems-container{
+    background: #b6c2d9;
+}
+
+.displayItems-title{
+    color: #4d7ea8;
+    margin-bottom: 0.25rem;
