@@ -84,3 +84,34 @@ body{
 .displayItems-title{
     color: #4d7ea8;
     margin-bottom: 0.25rem;
+
+    .grocery-item{
+        display:grid;
+        grid-template-columns: 4fr 1fr;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        transition: all 1s ease-in-out;
+        margin: 0.5rem 0;
+    }
+    
+    .grocery-item:hover{
+        background: #828489;
+    }
+    
+    .grocery-item__title{
+        text-align: left;
+        margin-left: 0.5rem;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        color: #272932;
+    }
+    
+    .grocery-item__link{
+        color: red;
+        transition: all 2s linear;   
+    }
+    
+    .grocery-item:hover .grocery-item__link{
+        transform: scale(2);
+    }
