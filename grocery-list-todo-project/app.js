@@ -19,3 +19,35 @@ document.addEventListener('DOMContentLoaded', displayStorage);
 clear.addEventListener('click', removeItems);
 //Listen to list to delete individual items
 list.addEventListener('click', removeSingleItem);
+
+
+//functions
+function addItem(event){
+    event.preventDefault();
+    let value = input.value;
+    if (value === ''){
+        showAction(addItemsAction, 'Please add grocery item', false);
+    } else {
+        showAction(addItemsAction, `${value} added to the list`, true);
+        createItem(value);
+        updateStorage(value);
+    }
+}
+
+function showAction(element, text, value){
+    if (value === true){
+        element.classList.add('success');
+        element.innerText = text;
+        input.value = '';
+        setTimeout(function(){
+            element.classList.remove('success');
+        }, 3000)
+    } else {
+        element.classList.add('alert');
+        element.innerText = text;
+        input.value = '';
+        setTimeout(function(){
+            element.classList.remove('alert');
+        }, 3000)
+    }
+}
