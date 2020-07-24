@@ -108,3 +108,35 @@ function removeItems(){
         showAction(displayItemsAction, 'No more items to delete', false);
     }
 }
+
+//remove single item
+
+function removeSingleItem(event){
+    event.preventDefault();
+    
+    let link = event.target.parentElement;
+    if(link.classList.contains('grocery-item__link')){
+        let text = link.previousElementSibling.innerHTML;
+        let groceryItem = event.target.parentElement.parentElement;
+        //remove from list
+
+        list.removeChild(groceryItem);
+        showAction(displayItemsAction,`${text} removed from the list`, true);
+
+        //remove from local storage
+        editStorage(text);
+
+    }
+}
+
+function editStorage(item){
+    let groceryItems = JSON.parse(localStorage.getItem('groceryList'));
+    let index = groceryItems.indexOf(item);
+    
+    groceryItems.splice(index, 1);
+    //first delete existing list
+    localStorage.removeItem('groceryList');
+    //add new updated/edited list
+    localStorage.setItem('groceryList', JSON.stringify(groceryItems));
+
+}
