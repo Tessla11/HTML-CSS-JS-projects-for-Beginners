@@ -68,3 +68,14 @@ function createItem(value){
 
     list.appendChild(parent);
 }
+
+
+//update storage
+function updateStorage(value){
+    let groceryList;
+    
+    groceryList = localStorage.getItem('groceryList') ? JSON.parse(localStorage.getItem('groceryList')) : [];
+
+    groceryList.push(value);
+    localStorage.setItem('groceryList', JSON.stringify(groceryList));
+}
