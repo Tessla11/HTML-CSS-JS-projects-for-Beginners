@@ -51,3 +51,20 @@ function showAction(element, text, value){
         }, 3000)
     }
 }
+
+
+// create item
+function createItem(value){
+    let parent = document.createElement('div');
+        parent.classList.add('grocery-item');
+
+    // let title = document.createElement('h4');
+    //     title.classList.add('grocery-item__title');
+
+    parent.innerHTML = `<h4 class="grocery-item__title">${value}</h4>
+    <a href="#" class="grocery-item__link">
+        <i class="far fa-trash-alt"></i>
+    </a>`
+
+    list.appendChild(parent);
+}
