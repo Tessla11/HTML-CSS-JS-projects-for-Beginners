@@ -1,0 +1,21 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:"Roboto";
+    display: flex;
+    margin-top:100px;
+    justify-content: center;
+    height:100vh;
+    background:#7cb9c8;
+  }
+  
+  h1 {
+    padding:16px;
+    font-size:22px;
+    color:black;
+    text-align: center;
+  }
