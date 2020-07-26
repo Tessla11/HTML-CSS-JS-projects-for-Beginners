@@ -15,3 +15,36 @@
 	border-radius: 25px;
 	box-shadow: 5px 5px 15px 3px #111;
 }
+
+button{
+	width: 20%;
+	height: 50px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-radius: 15px;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	outline: none;
+	box-shadow: 2px 2px 1px 1px #222;
+}
+
+button:active{
+	background-color: gray;
+}
+
+#result{
+	width: 70%;
+	height: 40px;
+	background-color: white;
+	display: inline-block;
+	margin-top: 2%;
+	text-align: center;
+	line-height: 40px;
+}
+
+body{
+	background: #ADD100;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #7B920A, #ADD100);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
