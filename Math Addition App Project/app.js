@@ -19,3 +19,16 @@ button.addEventListener('click', function(){
 
 let guess = document.getElementById('guess').value;
     guess = Number(guess);
+
+
+
+    //check answer
+if (guess === total){
+    alert('Correct');
+    window.location.reload()
+} else {
+    alert('Sorry. Incorrect. The correct answer was ' + total + '.')
+    window.location.reload()
+
+}
+    });
