@@ -22,3 +22,10 @@ function slideLeft() {
     sliderImages[current - 1].style.display = "block";
     current--;
   }
+
+  // Show next
+function slideRight() {
+    reset();
+    sliderImages[current + 1].style.display = "block";
+    current++;
+  }
