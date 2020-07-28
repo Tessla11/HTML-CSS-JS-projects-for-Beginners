@@ -37,4 +37,14 @@ arrowLeft.addEventListener("click", function() {
     }
     slideLeft();
   });
+
+  // Right arrow click
+arrowRight.addEventListener("click", function() {
+    if (current === sliderImages.length - 1) {
+      current = -1;
+    }
+    slideRight();
+  });
+  
+  startSlide();
   
