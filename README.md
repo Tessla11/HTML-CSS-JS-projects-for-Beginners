@@ -6,7 +6,7 @@
 
 
 ## Motivation 🎉
-I wanted to discover and learn some API. I choose [Face API](https://github.com/justadudewhohacks/face-api.js/)
+I wanted to discover and learn 
 ## Screenshots 📺
 
 
