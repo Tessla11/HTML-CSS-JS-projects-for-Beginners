@@ -39,3 +39,13 @@ function addItem(e){
     // Append li to list
     itemList.appendChild(li);
   }
+
+  // Remove item
+function removeItem(e){
+    if(e.target.classList.contains('delete')){
+      if(confirm('Are You Sure?')){
+        var li = e.target.parentElement;
+        itemList.removeChild(li);
+      }
+    }
+  }
