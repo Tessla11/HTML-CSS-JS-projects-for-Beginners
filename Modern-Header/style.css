@@ -20,7 +20,7 @@
     background-position:center;
   }
 
-  
+
   header h1 {
     font-size: 37px;
     text-transform: uppercase;
@@ -34,3 +34,35 @@
 header h1::first-letter {
 	color:#FFC107;
 }
+
+
+nav {
+    position:fixed;
+    width:100%;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding:24px;
+  }
+  
+  nav ul li {
+    margin: 0 32px;
+  }
+  
+  nav ul li a {
+    color:#5dfff0;
+    font-size:28px;
+    text-decoration: none;
+    transition: font-size 0.2s, color 1s;
+  }
+  
+  nav ul li a:hover {
+    color:white;
+    font-size:32px;
+  }
+
+
+  
