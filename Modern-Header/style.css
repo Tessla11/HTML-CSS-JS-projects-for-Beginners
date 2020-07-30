@@ -19,4 +19,18 @@
     background-size:cover;
     background-position:center;
   }
+
   
+  header h1 {
+    font-size: 37px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: white;
+    font-family: "Roboto Thin", sans-serif;
+    letter-spacing: 16px;
+    margin-right: -16px;
+}
+
+header h1::first-letter {
+	color:#FFC107;
+}
