@@ -142,3 +142,11 @@ section {
 	margin-bottom: 20px;
 }
 .end { margin-right: 0 !important; }
+
+
+/*-=-=-=-=-=-=-=-=-=-*/
+/* Links */
+/*-=-=-=-=-=-=-=-=-= */
+
+a {	text-decoration: none; color: #666666;}
+a:hover, a:active { outline: 0; color: #666666; }
