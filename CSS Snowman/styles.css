@@ -1,0 +1,53 @@
+body {
+    background-color: #B1DEF4;
+  }
+  
+  #belly {
+    position: absolute;
+    background-color: white;
+    top: 200px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  #head {
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 80px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+  }
+  
+  #branch1 {
+    position: absolute;
+    background-color: #6B4000;
+    width: 10px;
+    height: 80px;
+    top: 170px;
+    left: 230px; 
+    transform: rotate(45deg);
+  }
+  
+  #branch2 {
+    position: absolute;
+    background-color: #6B4000;
+    width: 10px;
+    height: 30px;
+    top: 170px;
+    left: 240px; 
+    transform: rotate(-15deg);
+  }
+  
+  #branch3 {
+    position: absolute;
+    background-color: #6B4000;
+    width: 10px;
+    height: 30px;
+    top: 185px;
+    left: 255px; 
+    transform: rotate(108deg);
+  }
