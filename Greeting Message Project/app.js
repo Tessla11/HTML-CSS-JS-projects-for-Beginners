@@ -7,3 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Greetings</title>
 </head>
+
+
+<body>
+    <script src="app.js"></script>
+</body>
+</html>
