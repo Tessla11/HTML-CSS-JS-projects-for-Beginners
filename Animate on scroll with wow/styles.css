@@ -1,0 +1,14 @@
+/*-=-=-=-=-=-=-=-=-=-*/
+/* GENERAL STYLES */
+/*-=-=-=-=-=-=-=-=-= */
+
+body {
+	overflow: scroll;
+	font-family: "Open Sans", Arial, Helvetica;
+	text-align: center;
+	background-color: #1e202b;
+	color: #666666;
+	background-image: url(https://subtlepatterns.com/patterns/stardust.png); 
+	background-position: initial initial; 
+	background-repeat: initial initial;
+}
