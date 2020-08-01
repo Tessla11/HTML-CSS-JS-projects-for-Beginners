@@ -83,3 +83,21 @@ function endGame(){
     playGame = false;
     newGame();
 }
+
+
+function newGame(){
+    const newGameButton = document.querySelector('#newGame');
+    newGameButton.addEventListener('click', function(){
+        //Pick a new random number
+        randomNumber = parseInt((Math.random()*100)+1);
+        previousGuesses = [];
+        numGuesses = 1;
+        guessSlot.innerHTML = '';
+        lowOrHi.innerHTML = '';
+        remaining.innerHTML = `${11 - numGuesses}  `;
+        userInput.removeAttribute('disabled');
+        startOver.removeChild(p);
+        playGame = true;
+    })
+}
+//Allow to restart game with restart button
