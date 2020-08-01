@@ -69,3 +69,17 @@ function displayGuesses(guess){
 function displayMessage(message){
         lowOrHi.innerHTML = `<h1>${message}</h1>`
 }
+
+
+function endGame(){
+    //Clear user input
+    userInput.value = '';
+    //Disable user input button
+    userInput.setAttribute('disabled', '');
+    //Display Start new Game Button
+          p.classList.add('button');
+          p.innerHTML = `<h1 id="newGame">Start New Game</h1>`
+    startOver.appendChild(p);
+    playGame = false;
+    newGame();
+}
