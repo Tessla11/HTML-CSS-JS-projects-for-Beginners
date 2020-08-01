@@ -46,3 +46,19 @@
     align-items: center;
     justify-content: center;
   }
+
+
+  .loginScreen {
+    width: 90%;
+    display: flex;
+  }
+  .logo {
+    color: #f1edee;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    background: #000;
+  }
