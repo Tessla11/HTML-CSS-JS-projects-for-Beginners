@@ -69,3 +69,26 @@ button {
 .guesses {
     background-color: #12aab4;
 }
+
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 750px;
+    height: 550px;
+    background-color: #12aab4;
+    color: #fff;
+    font-size: 25px;
+}
+
+h1 {
+    background-color: #7b3056;
+    color: #fff;
+    text-align: center;
+    width: 750px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
