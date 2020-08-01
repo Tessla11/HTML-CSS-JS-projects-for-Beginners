@@ -1,0 +1,21 @@
+document.addEventListener('DOMContentLoaded',() =>{
+    const timeLeftDisplay = document.querySelector('time-left') 
+    const startBtn = document.querySelector('')
+
+let timeLeft = 10
+
+function countDown () {
+setInterval(function() {
+if(timeLeft <=0)
+{
+    clearInterval(timeLeft =0)
+
+}
+
+    timeLeftDisplay.innerHTML =timeleft
+    timeLeft -=10
+
+},1000)
+
+startBtn.addEventListener('click',countDown)
+}
