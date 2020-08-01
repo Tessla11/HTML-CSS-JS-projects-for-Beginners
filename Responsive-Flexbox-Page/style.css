@@ -26,3 +26,23 @@
   .container {
     display: flex;
   }
+
+  .leftSidebar {
+    color: #f1edee;
+    background: #305467;
+    font-weight: bold;
+    padding: 16px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.7;
+  }
+  .content {
+    flex: 2;
+    background: #333533;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
