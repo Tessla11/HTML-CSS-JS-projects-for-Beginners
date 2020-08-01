@@ -18,3 +18,27 @@ body {
     color: white;
     padding: 7px;
 }
+
+button {
+    background-color: purple;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+}
+
+#subt {
+    background-color: yellow;
+    color: #000;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 50px;
+    /* margin-left: 75px; */
+}
