@@ -81,3 +81,13 @@ function goToSlide(slideNumber) {
   
     setActiveClass();
   }
+
+
+  // Set Active Class
+
+function setActiveClass() {
+    // Set active class for Slide Image
+  
+    let currentActive = document.querySelector(".slide-image.active");
+    currentActive.classList.remove("active");
+    slideImage[currentSlide].classList.add("active");
