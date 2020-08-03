@@ -27,3 +27,20 @@ function init() {
   }
   
   init();
+
+
+  // Create navigation dots
+
+function createNavigationDots() {
+    for (let i = 0; i < numberOfImages; i++) {
+      const dot = document.createElement("div");
+      dot.classList.add("single-dot");
+      navigationDots.appendChild(dot);
+  
+      dot.addEventListener("click", () => {
+        goToSlide(i);
+      });
+    }
+  
+    navigationDots.children[0].classList.add("active");
+  }
