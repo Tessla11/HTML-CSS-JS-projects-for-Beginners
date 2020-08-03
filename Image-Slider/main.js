@@ -91,3 +91,11 @@ function setActiveClass() {
     let currentActive = document.querySelector(".slide-image.active");
     currentActive.classList.remove("active");
     slideImage[currentSlide].classList.add("active");
+
+
+    //   set active class for navigation dots
+
+  let currentDot = document.querySelector(".single-dot.active");
+  currentDot.classList.remove("active");
+  navigationDots.children[currentSlide].classList.add("active");
+}
