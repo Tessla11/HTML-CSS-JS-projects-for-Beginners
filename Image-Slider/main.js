@@ -70,3 +70,14 @@ prevBtn.addEventListener("click", () => {
     currentSlide--;
     goToSlide(currentSlide);
   });
+
+  // Go To Slide
+
+function goToSlide(slideNumber) {
+    slidesContainer.style.transform =
+      "translateX(-" + slideWidth * slideNumber + "px)";
+  
+    currentSlide = slideNumber;
+  
+    setActiveClass();
+  }
