@@ -44,3 +44,29 @@ function createNavigationDots() {
   
     navigationDots.children[0].classList.add("active");
   }
+
+  // Next Button
+
+nextBtn.addEventListener("click", () => {
+    if (currentSlide >= numberOfImages - 1) {
+      goToSlide(0);
+      return;
+    }
+  
+    currentSlide++;
+    goToSlide(currentSlide);
+  });
+
+
+  
+// Previous Button
+
+prevBtn.addEventListener("click", () => {
+    if (currentSlide <= 0) {
+      goToSlide(numberOfImages - 1);
+      return;
+    }
+  
+    currentSlide--;
+    goToSlide(currentSlide);
+  });
