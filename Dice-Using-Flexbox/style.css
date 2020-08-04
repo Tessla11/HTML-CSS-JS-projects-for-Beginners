@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: lato, sans-serif;
+    background: rgb(77, 212, 212);
+  }
+  h2 {
+    text-align: center;
+    padding: 16px;
+    margin: 32px 0px;
+    border-bottom: 1px solid black;
+    color: rgb(88, 37, 37);
+  }
+  footer {
+    text-align: center;
+    padding: 16px;
+  }
