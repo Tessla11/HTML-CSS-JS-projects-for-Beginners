@@ -185,3 +185,67 @@ body {
         transform: rotate(-360deg);
     }
 }
+
+@keyframes rotateShadow {
+    15% {
+        transform: rotate(0deg);
+    }
+    35% {
+        transform: rotate(90deg);
+    }
+    65% {
+        transform: rotate(90deg);
+    }
+    85% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotBigBeak {
+    15% {
+        transform: rotate(0deg);
+    }
+    35% {
+        transform: rotate(90deg);
+    }
+    65% {
+        transform: rotate(90deg);
+    }
+    85% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotSmallBeak {
+    15% {
+        transform: rotate(0deg);
+    }
+    35% {
+        transform: rotate(-90deg);
+    }
+    65% {
+        transform: rotate(-90deg);
+    }
+    85% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes moveEye {
+    15% {
+        left: 51%;
+        transform: translate(0px);
+    }
+    35% {
+        left: 49%;
+        transform: translate(-100%);
+    }
+    65% {
+        left: 49%;
+        transform: translate(-100%);
+    }
+    85% {
+        left: 51%;
+        transform: translate(0px);
+    }
+}
