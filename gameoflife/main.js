@@ -181,7 +181,11 @@ if (canvas.getContext) {
     board.print(context);
 
     /window.setTimeout(doTick, 100);
-    doTick();
+    // doTick();
+
+
+    let timeoutId;
+
 
     function doTick() {
         board.tick();
@@ -190,9 +194,32 @@ if (canvas.getContext) {
 
         const delay = document.getElementById("delay").value;
 
-        window.setTimeout(doTick, delay);
+        timeoutId = window.setTimeout(doTick, delay);
     }
 
+    function stopTick() {
+        window.clearTimeout(timeoutId);
+
+
+
+
+    }
+
+
+    let running = false;
+
+    const toggle = document.getElementById("toggle");
+    toggle.addEventListener("click", event => {
+        if (running) {
+            stopTick();
+            running = false;
+            toggle.value = "Start";
+        } else {
+            doTick();
+            running = true;
+            toggle.value = "Stop";
+        }
+    });
 
 
 
