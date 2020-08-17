@@ -211,11 +211,11 @@ if (canvas.getContext) {
     const toggle = document.getElementById("toggle");
     toggle.addEventListener("click", event => {
         if (running) {
-            stopTick();
+            stopTicking();
             running = false;
             toggle.value = "Start";
         } else {
-            doTick(context, board);
+            startTicking(context, board);
             running = true;
             toggle.value = "Stop";
         }
@@ -223,4 +223,21 @@ if (canvas.getContext) {
 
 
 
+}
+
+
+
+
+function startTicking(context, board) {
+    board.tick();
+    board.print(context);
+    document.getElementById("generation").value = board.generation;
+
+    const delay = document.getElementById("delay").value;
+
+    timeoutId = window.setTimeout(startTicking, delay, context, board);
+}
+
+function stopTicking() {
+    window.clearTimeout(timeoutId);
 }
