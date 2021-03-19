@@ -15,15 +15,3 @@ I wanted to discover and learn
 - CSS
 - ES6+
 
-## Code Example/Issues 🔍
-
-
-
-
-
-## Installation  📍 
-```bash
-npm install 
-```
-
-## Credits 👏
